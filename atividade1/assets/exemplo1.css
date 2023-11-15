@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    background-color: rgb(183, 217, 228);
+    color: #333;
+}
+
+h2{
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(78, 176, 200), rgb(183, 217, 228));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(to top, rgb(78, 176, 200), rgb(183, 217, 228));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+ 
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    margin: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+section p{
+    margin-left: 300px; 
+    margin-right: 300px; 
+}
+
+section img {
+    width: 70%; 
+    max-width: 600px; 
+    height: auto; 
+    margin-top: 20px;
+}
